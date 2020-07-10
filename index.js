@@ -14,7 +14,7 @@ function register() {
       //pages has loaded now call service worker to register
       console.log("Page is loaded")
       navigator.serviceWorker
-        .register('/sw.js')
+        .register('sw.js')
         .then(resgister => {
           console.log("Service worker registered")
         })
